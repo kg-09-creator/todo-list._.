@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>A Cool Todo List</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <audio id="alarmSound" src="https://assets.mixkit.co/active_storage/sfx/1107/1107-preview.mp3"></audio>
+        <div class="todo-container">
+            <h1>Task List</h1>
+            <p id="counter"></p>
+            
+            <form id="todoForm" class="input-area">
+                <input type="text" id="taskInput" placeholder="Enter a new task...">
+
+                <select id="prioritySelect">
+                    <option value="low">Low</option>
+                    <option value="medium">Medium</option>
+                    <option value="high">High</option>
+                </select>
+
+                <button type="submit" id="addBtn">Add Task</button>
+            </form>
+
+            <ul id="taskList"></ul>
+            
+            <h1 id="pomotitle">Pomodoro Timer</h1>
+            
+            <div class="timer-section">
+                <div id="timerDisplay">25:00</div>
+                <div class="timer-controls">
+                    <button id="startTimerBtn">Start</button>
+                    <button id="resetTimerBtn">Reset</button>
+                </div>
+                
+                <div class="music-controls">
+    <iframe 
+        id="musicEmbed"
+        src="https://www.youtube.com/embed/EWrX250Zhko" 
+        allow="autoplay; encrypted-media">
+    </iframe>
+
+    <div class="playlist-tabs">
+        <button class="tab-btn active" onclick="switchEmbed('JCKBaJDRMw4', this)">Lofi Beats</button>
+        <button class="tab-btn" onclick="switchEmbed('qGohtGC5Rtk', this)">Deep Focus</button>
+        <button class="tab-btn" onclick="switchEmbed('vYIYIVmOo3Q', this)">Rainy Night</button>
+    </div>
+</div>
+
+            </div>
+        </div> 
+
+        <script src="script.js"></script>
+    </body>
+</html>
