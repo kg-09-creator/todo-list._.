@@ -20,5 +20,5 @@
 # Inspiration 
 - I procrastinate a lot and it can sometimes be hard for me to focus on studying for longer periods of time. Things like keeping track of what you have to do, using Pomodoro methods, and sometimes listening to music without lyrics are all things that can help one focus better, so I decided to combine all of these things on one webpage to minimize distractions from switching tabs.
 
-- <img width="351" height="670" alt="image" src="https://github.com/user-attachments/assets/7d843939-c150-47d4-94d2-955a449bd67c" />
+<img width="351" height="670" alt="image" src="https://github.com/user-attachments/assets/7d843939-c150-47d4-94d2-955a449bd67c" />
 
