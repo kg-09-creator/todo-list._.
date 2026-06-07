@@ -13,7 +13,7 @@
 - **Pomodoro Timer**
 1) Just click start to begin the 25-minute timer and reset when you want to reset the timer. When finished, it should play a soft alarm sound when it's time to take a break.
 
--**Music**
+- **Music**
 - As of now, there are three available lofi tracks you can play. Click on either of the three buttons to try them out - Lofi Beats, Deep Focus, or Rainy Night.
 - **note: sometimes when the webpage is first opened, the music box says "This live stream recording is not available." Not sure why that happens, but the videos do work, and you can load them easily by clicking one of the three music buttons below the box.**
 
